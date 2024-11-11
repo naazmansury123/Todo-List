@@ -1,0 +1,101 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: url("https://t3.ftcdn.net/jpg/05/13/59/72/360_F_513597277_YYqrogAmgRR9ohwTUnOM784zS9eYUcSk.jpg") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #333;
+  }
+  
+  
+  .container {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+    max-width: 90%;
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .todo-input {
+    display: flex;
+    margin: 15px 0;
+  }
+  
+  #new-task {
+    padding: 10px;
+    width: 70%;
+    border: 2px solid #272323;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  #add-task-btn {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  #add-task-btn:hover {
+    background-color: #218838;
+  }
+  
+  .task-list table {
+    width: 100%;
+  }
+  
+  .tasks tr {
+    background-color: #f4f4f4;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s;
+  }
+  
+  .tasks tr td {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button.edit-btn, button.delete-btn {
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 5px;
+    transition: opacity 0.3s;
+  }
+  
+  button.edit-btn {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  button.delete-btn {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  button.edit-btn:hover, button.delete-btn:hover {
+    opacity: 0.8;
+  }
+  
